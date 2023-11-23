@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         spinner.setAdapter(adapter);
 //hello world !!!
-// fm;elfkvdnkdmn,bmd kn
+// fm;elfkvdnkdm
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
