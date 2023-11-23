@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.lan));
         // ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,spiner);
 
+
+        
         spinner.setAdapter(adapter);
 
         b1.setOnClickListener(new View.OnClickListener() {
