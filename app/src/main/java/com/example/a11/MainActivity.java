@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
         String [] spiner={"DOG","CAT","CAR","ANIMAL"};
 
-//        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.lan));
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,spiner);
+       ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.lan));
+        // ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,spiner);
 
         spinner.setAdapter(adapter);
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
                 intent.putExtras(bundle);
 
-                
+
 
                 startActivity(intent);
             }
